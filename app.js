@@ -3,6 +3,15 @@
 // Creación de array de lista de amigos
 let amigos = [];
 
+/*Función para validar que el campo no esté vacío */
+function validarCampo() {
+    let amigo = document.getElementById("amigo").value;
+    if (amigo === "") {
+      alert("Por favor inserte un nombre");
+    } else {
+      agregarAmigo();
+    }
+  }
 /* Capturar el valor del campo de entrada */
 function agregarAmigo() {
   let amigo = document.getElementById("amigo").value;
