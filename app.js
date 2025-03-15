@@ -29,10 +29,10 @@ function limpiarArray() {
 /* Función para mostrar el resultado */
 function mostrarResultado() {
   let resultado = document.getElementById("resultado");
-  let amigosOrdenados = amigos.sort();
-  resultado.innerHTML = amigosOrdenados.join(", ");
-  for (let i = 0; i < amigosOrdenados.length; i++) {
-    if (i === amigosOrdenados.length - 1) {
+  let listaAmigos = amigos.sort();
+  resultado.innerHTML = listaAmigos.join(", ");
+  for (let i = 0; i < listaAmigos.length; i++) {
+    if (i === listaAmigos.length - 1) {
       resultado.innerHTML += ".";
     } else {
       resultado.innerHTML += ", ";
