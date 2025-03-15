@@ -12,7 +12,7 @@ function validarCampo() {
       agregarAmigo();
     }
   }
-/* Capturar el valor del campo de entrada */
+/* Función para capturar el valor del campo de entrada agregar amigos */
 function agregarAmigo() {
   let amigo = document.getElementById("amigo").value;
   amigos.push(amigo);
@@ -26,7 +26,8 @@ function limpiarArray() {
   mostrarResultado();
 }
 
-/* Función para mostrar el resultado */
+/* Función para función que recorra el array amigos y 
+agregue cada nombre como un elemento <li> dentro de una lista HTML. */
 function mostrarResultado() {
   let resultado = document.getElementById("resultado");
   let listaAmigos = amigos.sort();
