@@ -43,13 +43,11 @@ function mostrarResultado() {
 /* Función para escoger un amigo aleatorio */
 function escogerAmigo() {
     if (amigos.length === 0) {
-      alert("Por favor inserte un nombre");
-      return;
+        alert("Por favor inserte un nombre");
+        return;
+    } else {
+        let amigoAleatorio = amigos[Math.floor(Math.random() * amigos.length)];
+        let resultado = document.getElementById("resultado");
+        resultado.innerHTML = amigoAleatorio;
     }
-    else {
-      amigoAleatorio();
-    }
-  let amigoAleatorio = amigos[Math.floor(Math.random() * amigos.length)];
-  let resultado = document.getElementById("resultado");
-  resultado.innerHTML = amigoAleatorio;
 }
