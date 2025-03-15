@@ -20,9 +20,36 @@ function agregarAmigo() {
   console.log(amigos);
 }
 
+/* Función para limpiar el array */
+function limpiarArray() {
+  amigos = [];
+  mostrarResultado();
+}
+
 /* Función para mostrar el resultado */
 function mostrarResultado() {
   let resultado = document.getElementById("resultado");
   let amigosOrdenados = amigos.sort();
   resultado.innerHTML = amigosOrdenados.join(", ");
+  for (let i = 0; i < amigosOrdenados.length; i++) {
+    if (i === amigosOrdenados.length - 1) {
+      resultado.innerHTML += ".";
+    } else {
+      resultado.innerHTML += ", ";
+    }
+  }
+}
+
+/* Función para escoger un amigo aleatorio */
+function escogerAmigo() {
+    if (amigos.length === 0) {
+      alert("Por favor inserte un nombre");
+      return;
+    }
+    else {
+      amigoAleatorio();
+    }
+  let amigoAleatorio = amigos[Math.floor(Math.random() * amigos.length)];
+  let resultado = document.getElementById("resultado");
+  resultado.innerHTML = amigoAleatorio;
 }
