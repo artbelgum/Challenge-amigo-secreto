@@ -44,5 +44,6 @@ function escogerAmigo() {
         let amigoAleatorio = amigos[Math.floor(Math.random() * amigos.length)];
         let resultado = document.getElementById("resultado");
         resultado.innerHTML = amigoAleatorio;
+        mostrarResultado();
     }
 }
