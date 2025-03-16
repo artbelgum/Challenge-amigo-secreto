@@ -14,4 +14,7 @@ Aquí apliqué los conocimientos adquiridos durante los cursos de Alura para res
 
 ## :hammer:Funcionalidades del proyecto
 
-- `Agregar nombres:`: Los usuarios escribirán el nombre de un amigo en un campo de texto y lo agregarán a una lista visible al hacer clic en "Adicionar".- `Validar entrada`: Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un nombre válido.- `Visualizar la lista`: Los nombres ingresados aparecerán en una lista debajo del campo de entrada.- `Sorteo aleatorio`: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
+- `Agregar nombres:`: Los usuarios escribirán el nombre de un amigo en un campo de texto y lo agregarán a una lista visible al hacer clic en "Adicionar". - `Validar entrada`: Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un nombre válido.- `Visualizar la lista`: Los nombres ingresados aparecerán en una lista debajo del campo de entrada.- `Sorteo aleatorio`: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
+## :hammer:Funcionalidades del proyecto
+
+- `Funcionalidad 1`: descripción de la funcionalidad 1- `Funcionalidad 2`: descripción de la funcionalidad 2- `Funcionalidad 2a`: descripción de la funcionalidade 2a relacionada con la funcionalidad 2- `Funcionalidad 3`: descripción de la funcionalidad 3
