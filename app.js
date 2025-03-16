@@ -31,14 +31,7 @@ agregue cada nombre como un elemento <li> dentro de una lista HTML. */
 function mostrarResultado() {
   let resultado = document.getElementById("resultado");
   let listaAmigos = amigos.sort();
-  resultado.innerHTML = listaAmigos.join(", ");
-  for (let i = 0; i < listaAmigos.length; i++) {
-    if (i === listaAmigos.length - 1) {
-      resultado.innerHTML += ".";
-    } else {
-      resultado.innerHTML += ", ";
-    }
-  }
+  resultado.innerHTML = listaAmigos.join(", ") + ".";
 }
 
 /* Función para escoger un amigo aleatorio */
