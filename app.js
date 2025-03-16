@@ -18,6 +18,7 @@ function agregarAmigo() {
   amigos.push(amigo);
   document.getElementById("amigo").value = "";
   console.log(amigos);
+  mostrarResultado();
 }
 
 /* Función para limpiar el array */
