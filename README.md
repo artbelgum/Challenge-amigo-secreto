@@ -1,3 +1,5 @@
+
+![logoAleGum](https://github.com/user-attachments/assets/da844d27-1258-49b4-82d9-8365e7a9dcac)
 <h1 align="center"> Primer desafío </h1>
    <p align="center">
    <img src="https://img.shields.io/badge/STATUS-%20COMPLETADO-green">
