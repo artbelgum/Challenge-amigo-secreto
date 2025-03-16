@@ -31,8 +31,16 @@ function limpiarArray() {
 agregue cada nombre como un elemento <li> dentro de una lista HTML. */
 function mostrarResultado() {
   let resultado = document.getElementById("resultado");
-  let listaAmigos = amigos.sort();
-  resultado.innerHTML = listaAmigos.join(", ") + ".";
+  resultado.innerHTML = ""; // Limpiar la lista existente
+
+  let listaAmigos = amigos.sort(); // Ordenar la lista de amigos
+
+  // Usar un bucle for para iterar sobre el array
+  for (let i = 0; i < listaAmigos.length; i++) {
+    let li = document.createElement("li"); // Crear un nuevo elemento <li>
+    li.textContent = listaAmigos[i]; // Asignar el nombre del amigo al <li>
+    resultado.appendChild(li); // Agregar el <li> al elemento resultado
+  }
 }
 
 /* Función para escoger un amigo aleatorio */
