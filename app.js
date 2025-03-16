@@ -5,7 +5,7 @@ let amigos = [];
 
 /*Función para validar que el campo no esté vacío */
 function validarCampo() {
-    let amigo = document.getElementById("amigo").value;
+    let amigo = document.getElementById("amigo").value.trim(); //trim Elimina espacios en blanco
     if (amigo === "") {
       alert("Por favor inserte un nombre");
     } else {
@@ -14,11 +14,17 @@ function validarCampo() {
   }
 /* Función para capturar el valor del campo de entrada agregar amigos */
 function agregarAmigo() {
-  let amigo = document.getElementById("amigo").value;
-  amigos.push(amigo);
-  document.getElementById("amigo").value = "";
-  console.log(amigos);
-  mostrarResultado();
+  let amigo = document.getElementById("amigo").value.trim(); // Obtener el nombre y eliminar espacios
+
+  // Verificar si el nombre ya existe en la lista con .includes función en vez de for 
+  if (amigos.includes(amigo)) {
+      alert("Este nombre ya está en la lista. Por favor, ingrese un nombre diferente.");
+  } else {
+      amigos.push(amigo); // Agregar el nuevo amigo
+      document.getElementById("amigo").value = ""; // Limpiar el campo de entrada
+      console.log(amigos); // Mostrar la lista en la consola
+      mostrarResultado(); // Actualizar la visualización
+  }
 }
 
 /* Función para limpiar el array */
