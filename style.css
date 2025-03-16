@@ -6,6 +6,7 @@
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
+    --color-buttonclean-hover: #4961aa;
 }
 
 /* Estilos generales */
@@ -159,4 +160,23 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+/* Botón de reinicio */
+.button-reinicio {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    font-size: 16px;
+}
+
+.button-reinicio img {
+    margin-right: 40px;
+}
+
+.button-reinicio:hover {
+    background-color: var(--color-buttonclean-hover);
 }
