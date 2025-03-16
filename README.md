@@ -14,7 +14,7 @@ Aquí apliqué los conocimientos adquiridos durante los cursos de Alura para res
 
 ## :hammer:Funcionalidades del proyecto
 
-- `Agregar nombres:`: Los usuarios escribirán el nombre de un amigo en un campo de texto y lo agregarán a una lista visible al hacer clic en "Adicionar". <br>- `Validar entrada`: Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un nombre válido.<br>- `Visualizar la lista`: Los nombres ingresados aparecerán en una lista debajo del campo de entrada.<br>- `Sorteo aleatorio`: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
+- `Agregar nombres:`: Los usuarios escribirán el nombre de un amigo en un campo de texto y lo agregarán a una lista visible al hacer clic en "Adicionar". <br>- `Validar entrada`: Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un nombre válido.<br>- `Visualizar la lista`: Los nombres ingresados aparecerán en una lista debajo del campo de entrada.<br>- `Mensaje para nombre duplicado`: Si el usuario ingresa un nombre existente, se enviará una alerta para que ingrese otro nombre.<br>- `Sorteo aleatorio`: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.<br>- `Botón de reinicio`: Opción por si el usuario quiere volver a jugar, limpiará el array para crear una nueva lista de amigos.
 
 ## Construido con 🛠️
 
@@ -23,6 +23,6 @@ Aquí apliqué los conocimientos adquiridos durante los cursos de Alura para res
 
 ## Autores ✒️
 
-* **Alejandra Gutiérrez** - *Funcionalidad* 
-* **Alura** - *CSS* 
+* **Alejandra Gutiérrez** - *Funcionalidad y modificación del CSS* 
+* **Alura** - *CSS base* 
 
