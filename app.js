@@ -33,14 +33,12 @@ function limpiarArray() {
   mostrarResultado();
 }
 
-/* Función para función que recorra el array amigos y 
+/* Función que recorra el array amigos y 
 agregue cada nombre como un elemento <li> dentro de una lista HTML. */
 function mostrarResultado() {
   let resultado = document.getElementById("resultado");
   resultado.innerHTML = ""; // Limpiar la lista existente
-
   let listaAmigos = amigos.sort(); // Ordenar la lista de amigos
-
   // Usar un bucle for para iterar sobre el array
   for (let i = 0; i < listaAmigos.length; i++) {
     let li = document.createElement("li"); // Crear un nuevo elemento <li>
